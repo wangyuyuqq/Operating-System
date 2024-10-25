@@ -628,7 +628,7 @@ void exception_handler(struct trapframe *tf) {
     80200478:	02f76c63          	bltu	a4,a5,802004b0 <exception_handler+0x4a>
     8020047c:	4709                	li	a4,2
     8020047e:	02e79563          	bne	a5,a4,802004a8 <exception_handler+0x42>
-             /* LAB1 CHALLENGE3   YOUR CODE :  */
+             /* LAB1 CHALLENGE3  2212046 */
             /*(1)输出指令异常类型（ Illegal instruction）
              *(2)输出异常指令地址
              *(3)更新 tf->epc寄存器
