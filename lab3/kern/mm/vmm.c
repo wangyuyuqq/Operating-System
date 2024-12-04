@@ -420,4 +420,3 @@ do_pgfault(struct mm_struct *mm, uint_t error_code, uintptr_t addr) {
 failed:
     return ret;
 }
-
